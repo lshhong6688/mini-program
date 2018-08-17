@@ -1,0 +1,20 @@
+<!--pages/template/template.wxml-->
+
+<template name="tapTp">
+  <view class='tem-container'>
+    <view class='blank'></view>
+    <view class='list-date'>
+      <image src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <text class='title'>{{title}}</text>
+    <image class='content-img' src='{{detail_img}}'></image>
+    <text class='content'>{{detail_content}}</text>
+    <view class='collection_love'>
+      <image src='/images/icon/star.png'></image>
+      <text>{{love_count}}</text>
+      <image src='/images/icon/view.png'></image>
+      <text>{{attention_count}}</text>
+    </view>
+  </view>
+</template>
